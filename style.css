@@ -1,0 +1,78 @@
+body {
+    font-family: sans-serif;
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 50px 1fr;
+    grid-template-columns: 100px 1fr;
+    grid-gap: 0px;
+}
+
+#appTitle {
+    color: white;
+    grid-row: span 1;
+    grid-column: span 1;
+    background-color: royalblue;
+    text-align: right;
+    padding: 15px;
+}
+
+nav {
+    color: white;
+    grid-row: span 2;
+    grid-column: span 1;
+    background-color: gray;
+    display: grid;
+    grid-template-rows: 200px repeat(7, 1fr) 200px;
+    grid-template-columns: 1fr;
+}
+
+#filler {
+    grid-row: span 1;
+    grid-column: span 1;
+}
+
+.navElement {
+    grid-row: span 1;
+    grid-column: span 1;
+    padding: 15px;
+}
+
+#content {
+    background-color: lightgray;
+    grid-row: span 1;
+    grid-column: span 1;
+    font-size: 150%;
+}
+
+.input {
+    size: 110%;
+    background: none;
+    border: solid;
+    border-color: darkgray;
+    border-radius: 20px;
+    margin-left: 300px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    color: darkgray;
+    background: none;
+    border: none;
+    font-size: 100%;
+}
+
+.hider {
+    display: none;
+}
+
+#displayBoard {
+    font-family: sans-serif;
+}
+
+.listItem {
+    padding-left: 300px;
+}
+
+.name {
+    margin-top: 40px;
+}

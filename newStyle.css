@@ -1,0 +1,84 @@
+body {
+    font-family: sans-serif;
+    display: grid;
+    height: 100vh;
+    grid-template-rows: 1fr;
+    grid-template-columns: 100px 1fr;
+    
+}
+
+h1 {
+    position: relative;
+    top: 300px;
+    font-size: 300%;
+    color: white;
+    text-align: center;
+}
+
+#content { 
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("images/bckg.jpg");
+    background-position: center;
+    background-size: cover;
+    
+    border: solid;
+    border-width: 10px;
+    border-color: white;
+}
+
+#appTitle {
+    display: none;
+}
+
+.input {
+    size: 110%;
+    background: none;
+    border: solid;
+    border-color: darkgray;
+    border-radius: 20px;
+    margin-left: 300px;
+    margin-bottom: 20px;
+}
+
+.button {
+    color: darkgray;
+    background: none;
+    border: none;
+    font-size: 100%;
+}
+
+.hider {
+    display: none;
+}
+
+#displayBoard {
+    font-family: sans-serif;
+}
+
+.listItem {
+    padding-left: 300px;
+    color: white;
+}
+
+.name {
+    margin-top: 40px;
+}
+
+.input {
+    size: 110%;
+    background: white;
+    border: none;
+    border-radius: 2px;
+    margin-left: 300px;
+    margin-bottom: 20px;
+}
+
+.button {
+    color: darkgray;
+    background: none;
+    border: none;
+    font-size: 100%;
+}
+
+i {
+    color: white;
+}

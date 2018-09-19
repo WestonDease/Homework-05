@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="newStyle.css">
+  <title>Document</title>
+</head>
+<body>
+
+  <nav>
+    <div id="filler"></div>
+    <div class="navElement" id="Home">Simplicity</div>
+    <div class="navElement" id="Print">Print</div>
+    <div class="navElement" id="Verify">Varify</div>
+    <div class="navElement" id="Lookup">Lookup</div>
+    <div class="navElement" id="Contains">Contains</div>
+    <div class="navElement" id="Update">Update</div>
+    <div class="navElement" id="Add">Add</div>
+    <div class="navElement" id="Delete">Delete</div>
+  </nav>
+
+  <div id="appTitle">The Minimalists Directory.</div>
+
+  
+    <div id="content">
+      <!-- create dynamic input element that hides or appears based on required feild-->
+      <h1 id="home">Welcome To <font color="yellow">Simplicity</font></h1>
+      <form>
+      <input type="text" class="input name hider"/> <br class="hider">
+      <input type="text" class="input officeNum hider"/> <br class="hider">
+      <input type="text" class="input phoneNum hider"/>
+      <button type="submit" class="btn btn-default hider"><i class="fas fa-search-dollar hider"></i></button>
+      </form>
+
+      <div id="display-board"></div>
+    </div>
+  
+
+  <script src="render.js"></script> 
+  <script src="dom.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
