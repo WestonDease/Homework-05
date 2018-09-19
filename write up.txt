@@ -1,0 +1,12 @@
+Homework 04
+
+Naming variables in code is all about conveyance. Because there are so few technical requirements to naming variables, naming them is more art than science.
+Good variable names are like highlights in a study book. If you highlight too little then no information is conveyed. If you highlight too much then no information can be compartmentalized.
+A good variable name should in one to three words convey the information inside it and the purpose it serves toward the larger program.
+Commenting is a lot like the process of variable naming except there is much more room for detail in comments. Comments should idealy be a sentence or two for most functions or subroutines
+and perhaps a paragraph for a large section of code like a series of classes or operations. Code structure needs to rely on the four pillars
+of object oriented programming. You must rely on abstraction to modularize your code and make it usable 20 years down the line. Encapsulation
+of things like variables prevents other code from overwriting yours during run-time. Relying on inheritance can tighten up the relationships
+between variables and make the code easier to read as a side. Utilizing polymorphism to clean code is a little trickier as it is arguably more for function
+and logic. But it still has the ability to let a programmer create dynamic objects which can free memory not only on the computer but also
+in the mind of the programmers using the code.
