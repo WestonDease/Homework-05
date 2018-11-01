@@ -1,0 +1,6 @@
+Homework 05
+
+Node.js is like a wall brick adapter converting a usb plug into standard american wall outlet format, it can take in the javascpript you've written and allows you to run it on non webpage apps. 
+Node.js converts javasript into machine language as a form of compiler and attackes to non webpage apps. It also has non-blocking I/O properties which allows it to handle multiple users at the same time. It does this with an eventloop constantly making callbacks on the callstack to receive user input.
+Node.js also has a massive library called npm which lets you install many different modules for your programm. It does this through require() which doesnt install the nessessary elements automatically.
+The user needs to manually install required npm modules. This can be done through the command prompt while acting in the folder the file is located in. Node has two types of events, system events that the computer already has defined, and custom ones the user makes.
